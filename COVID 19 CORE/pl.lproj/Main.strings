@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "No Internet connection"; ObjectID = "L0q-kx-Kov"; */
+"L0q-kx-Kov.text" = "Brak połączenia z internetem";
+
+/* Class = "UILabel"; text = "Check your Wi-Fi or mobile data connection"; ObjectID = "g1r-m7-UQu"; */
+"g1r-m7-UQu.text" = "Sprawdź połączenie Wi-Fi lub komórkowe";
+
+/* Class = "UILabel"; text = "Read the center QR Code"; ObjectID = "7H7-WT-omZ"; */
+"7H7-WT-omZ.text" = "Przeczytaj centrum QR code";
+
+/* Class = "UILabel"; text = "We are testing this system in a few centers. Use it only if you are expressly instructed to do so."; ObjectID = "aho-p2-aCw"; */
+"aho-p2-aCw.text" = "Testujemy ten system w kilku ośrodkach. Używaj go tylko wtedy, gdy otrzymałeś wyraźne polecenie.";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "GaO-ot-WU2"; */
+"GaO-ot-WU2.normalTitle" = "Anuluj";

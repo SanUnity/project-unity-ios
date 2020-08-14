@@ -1,0 +1,61 @@
+/* 
+  Localizable.strings
+  COVID 19 CORE
+
+  Created by Emilio Cubo Ruiz on 28/05/2020.
+  Copyright © 2020 COVID 19 CORE. All rights reserved.
+*/
+
+"center_logos" = "center_logos";
+"Done" = "Done";
+"Cancel" = "Cancel";
+"Retry" = "Retry";
+"Error" = "Error";
+"Show" = "Show";
+"Turned Bluetooth off by mistake?" = "Turned Bluetooth off by mistake?";
+"We need you!" = "We need you!";
+"Help stop the spread of COVID-19 by keeping your phone’s Bluetooth on until the outbreak is over." = "Help stop the spread of COVID-19 by keeping your phone’s Bluetooth on until the outbreak is over.";
+"Help stop the spread of COVID-19 by keeping your phone’s Proximity Notifications on until the outbreak is over." = "Help stop the spread of COVID-19 by keeping your phone’s Proximity Notifications on until the outbreak is over.";
+"Help stop the spread of COVID-19." = "Help stop the spread of COVID-19.";
+"App restart required for Bluetooth to restart!" = "App restart required for Bluetooth to restart!";
+"Press Ok to exit the app!" = "Press Ok to exit the app!";
+"MyReturn" = "MyReturn";
+"You have received a contact notification." = "You have received a contact notification.";
+
+"%@ needs to be keep open to work" = "%@ needs to be keep open to work";
+"To access power saver mode turn your phone down or keep it upside down in your pocket" = "To access power saver mode turn your phone down or keep it upside down in your pocket";
+"Meetings" = "Meetings";
+"Open %@ and turn your phone down on the table to keep open." = "Open %@ and turn your phone down on the table to keep open.";
+"Meals" = "Meals";
+"Movement" = "Movement";
+"Open %@ and keep your phone upside down in your pocket." = "Open %@ and keep your phone upside down in your pocket.";
+
+"Good morning!" = "Good morning!";
+"Help us to ensure the safety of all employees. Remember to activate Bluetooth and access %@ when you’re at the bank’s premises." = "Help us to ensure the safety of all employees. Remember to activate Bluetooth and access %@ when you’re at the bank’s premises.";
+"In meetings and in your workspace" = "In meetings and in your workspace";
+"At the cafeteria or at any other common space" = "At the cafeteria or at any other common space";
+"Access %@ and place your device with the screen facedown on the table to ensure the app remains active." = "Access %@ and place your device with the screen facedown on the table to ensure the app remains active.";
+"Moving inside the bank’s premises" = "Moving inside the bank’s premises";
+"Access %@ and place your device upside-down inside your pocket." = "Access %@ and place your device upside-down inside your pocket.";
+
+
+"Help us to make contract tracing effective" = "Help us to make contract tracing effective";
+"While at the bank’s premises keep active %@ and your device unlocked." = "While at the bank’s premises keep active %@ and your device unlocked.";
+"In meetings, at your workspace, in the cafeteria or in any other common space" = "In meetings, at your workspace, in the cafeteria or in any other common space";
+"Remember to check that %@ is active and that your device is unlocked." = "Remember to check that %@ is active and that your device is unlocked.";
+
+"watermark" = "watermark";
+
+"You were recently close to a suspected COVID-19 case" = "You were recently close to a suspected COVID-19 case";
+"Keep calm, follow the recommendations of care and watch your symptoms." = "Keep calm, follow the recommendations of care and watch your symptoms.";
+
+"Suspicious cases in your entity remain elevated" = "Suspicious cases in your entity remain elevated";
+"Take care of yourself, follow the recommendations and watch your symptoms." = "Take care of yourself, follow the recommendations and watch your symptoms.";
+
+"Invalid center code" = "Invalid center code";
+"Read the center QR Code" = "Read the center QR Code";
+
+
+"Settings" = "Settings";
+"%@ does not have access permissions to Contacts" = "%@ does not have access permissions to Contacts";
+"Go to Settings?" = "Go to Settings?";

@@ -1,0 +1,63 @@
+/* 
+  Localizable.strings
+  COVID 19 CORE
+
+  Created by Emilio Cubo Ruiz on 28/05/2020.
+  Copyright © 2020 COVID 19 CORE. All rights reserved.
+*/
+
+"center_logos" = "center_logos";
+
+"Done" = "Fatto";
+"Cancel" = "Annulla";
+"Retry" = "Riprova";
+"Error" = "Errore";
+"Show" = "Mostrare";
+"Turned Bluetooth off by mistake?" = "Bluetooth disattivato per errore?";
+"We need you!" = "Abbiamo bisogno di te!";
+"Help stop the spread of COVID-19 by keeping your phone’s Bluetooth on until the outbreak is over." = "Aiuta a bloccare la diffusione di COVID-19 mantenendo attivo il Bluetooth del telefono fino alla fine dell'epidemia.";
+"Help stop the spread of COVID-19 by keeping your phone’s Proximity Notifications on until the outbreak is over." = "Aiuta a bloccare la diffusione di COVID-19 mantenendo attive le notifiche di prossimità del telefono fino alla fine dell'epidemia.";
+"Help stop the spread of COVID-19." = "Aiuta a fermare la diffusione di COVID-19.";
+"App restart required for Bluetooth to restart!" = "Riavvio dell'app necessario per il riavvio di Bluetooth!";
+"Press Ok to exit the app!" = "Premi Ok per uscire dall'app!";
+"MyReturn" = "IlMioRitorno";
+"You have received a contact notification." = "Hai ricevuto una notifica di contatto.";
+
+"%@ needs to be keep open to work" = "%@ deve essere aperto al lavoro";
+"To access power saver mode turn your phone down or keep it upside down in your pocket" = "Per accedere alla modalità di risparmio energetico, spegnere il telefono o tenerlo capovolto in tasca";
+"Meetings" = "Incontri";
+"Open %@ and turn your phone down on the table to keep open." = "Apri %@ e abbassa il telefono sul tavolo per tenerlo aperto.";
+"Meals" = "Pasti";
+"Movement" = "Movimento";
+"Open %@ and keep your phone upside down in your pocket." = "Apri %@ e tieni il telefono sottosopra in tasca.";
+
+"Good morning!" = "Good morning!";
+"Help us to ensure the safety of all employees. Remember to activate Bluetooth and access %@ when you’re at the bank’s premises." = "Help us to ensure the safety of all employees. Remember to activate Bluetooth and access %@ when you’re at the bank’s premises.";
+"In meetings and in your workspace" = "In meetings and in your workspace";
+"Access %@ and place your device with the screen facedown on the table to ensure the app remains active." = "Access %@ and place your device with the screen facedown on the table to ensure the app remains active.";
+"At the cafeteria or at any other common space" = "At the cafeteria or at any other common space";
+"Moving inside the bank’s premises" = "Moving inside the bank’s premises";
+"Access %@ and place your device upside-down inside your pocket." = "Access %@ and place your device upside-down inside your pocket.";
+
+
+"Help us to make contract tracing effective" = "Help us to make contract tracing effective";
+"While at the bank’s premises keep active %@ and your device unlocked." = "While at the bank’s premises keep active %@ and your device unlocked.";
+"In meetings, at your workspace, in the cafeteria or in any other common space" = "In meetings, at your workspace, in the cafeteria or in any other common space";
+"Remember to check that %@ is active and that your device is unlocked." = "Remember to check that %@ is active and that your device is unlocked.";
+
+"watermark" = "watermark";
+
+"You were recently close to a suspected COVID-19 case" = "Di recente eri vicino a un sospetto caso COVID-19";
+"Keep calm, follow the recommendations of care and watch your symptoms." = "Mantieni la calma, segui le raccomandazioni di cura e osserva i tuoi sintomi.";
+
+
+"Suspicious cases in your entity remain elevated" = "I casi sospetti nella tua entità rimangono elevati";
+"Take care of yourself, follow the recommendations and watch your symptoms." = "Abbi cura di te, segui i consigli e osserva i tuoi sintomi.";
+
+"Invalid center code" = "Codice centrale non valido";
+"Read the center QR Code" = "Leggi il codice QR del centro";
+
+
+"Settings" = "Impostazioni";
+"%@ does not have access permissions to Contacts" = "%@ non dispone delle autorizzazioni di accesso ai Contatti";
+"Go to Settings?" = "Vai alle Impostazioni?";

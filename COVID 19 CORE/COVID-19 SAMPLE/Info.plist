@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>org.dpppt.synctask</string>
+		<string>org.dpppt.exposure-notification</string>
+	</array>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>es</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>covid-comunidades</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>mailto</string>
+		<string>tel</string>
+		<string>message</string>
+		<string>whatsapp</string>
+		<string>itms-apps</string>
+		<string>cydia</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<false/>
+	</dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>COVID-19 SAMPLE intercambia señales de Bluetooth con dispositivos cercanos que ejecutan la misma aplicación. Estas señales contienen una identificación anónima encriptada, que cambia continuamente para garantizar tu privacidad.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>COVID-19 SAMPLE intercambia señales de Bluetooth con dispositivos cercanos que ejecutan la misma aplicación. Estas señales contienen una identificación anónima encriptada, que cambia continuamente para garantizar tu privacidad.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>COVID-19 SAMPLE necesitará acceder a Cámara</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>COVID-19 SAMPLE mostrará los centros de salud más cercanos a tu ubicación.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>COVID-19 SAMPLE mostrará los centros de salud más cercanos a tu ubicación.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>COVID-19 SAMPLE mostrará los centros de salud más cercanos a tu ubicación.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>COVID-19 SAMPLE necesitará acceder a Fotos</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>bluetooth-central</string>
+		<string>bluetooth-peripheral</string>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIStatusBarHidden</key>
+	<true/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
+</dict>
+</plist>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>COVID 19 México.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>COVID-19 CCAA.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>46</integer>
+		</dict>
+		<key>COVID-19 CDMX copy.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>20</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>A045F43324504DCF00A74581</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A06036F6246C575500C13421</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A066AE9C247544E000D661B3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A0C89C932448AE6F00ACB46D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A0DC00DA2428B71F00FEF982</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

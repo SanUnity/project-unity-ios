@@ -1,0 +1,409 @@
+* {
+	-webkit-overflow-scrolling: touch;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html, body {
+    max-width: none;
+}
+
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: auto;
+}
+
+.main-navigation {
+    width: auto;
+}
+
+.main-navigation>ul {
+    margin: 0 auto;
+    max-width: 768px;
+}
+
+.col-xs-12 {
+    width: 100%;
+}
+
+.sdf, .search-sec-text {
+    width: 100% !important;
+}
+
+.sdf {
+    position: fixed !important;
+}
+
+body {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+}
+
+input {
+	-webkit-appearance: none;
+}
+
+#root {
+	padding-top: env(safe-area-inset-top);
+	padding-bottom: env(safe-area-inset-bottom);
+}
+
+.main-navigation {
+	height: calc(70px + env(safe-area-inset-bottom));
+	padding-bottom: env(safe-area-inset-bottom)
+}
+
+.main-back {
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+.MainPage.has-footer {
+	padding-bottom: calc(70px + env(safe-area-inset-bottom));
+    max-height: calc(100vh - env(safe-area-inset-top));
+    overflow-x: visible;
+}
+
+.TestPageWrapper.is-empty .test-a {
+    max-height: calc(100vh - 70px - env(safe-area-inset-bottom) - env(safe-area-inset-top));
+}
+
+.login-head-inn .pag-login .btn-mar-log .btn-clr-chng,
+.login-head-inn .btn-mar-log .btn-clr-chng {
+	position: relative;
+	top: 0;
+}
+
+.map-a .sdf,
+.faq-view .sdf,
+.profile-view .sdf,
+.test-abb .fixed-header,
+.news-main-wrapper .sdf,
+.map-hospitals .main-title {
+    padding-top: calc(20px + env(safe-area-inset-top));
+}
+
+.profile-view .profile-a {
+    padding-top: 15px;
+}
+
+.search-sec-text.terms-and-conditions .terms-and-conditions-wrapper .sdf {
+    padding-top: calc(24px + env(safe-area-inset-top));
+}
+
+.form-test>header .crs-txt {
+    padding: calc(45px + env(safe-area-inset-top)) 24px 20px;
+}
+
+.form-test>header .subtitle {
+    padding: calc(65px + env(safe-area-inset-top)) 0 36px;
+}
+
+.test-a .select-lang-modal-wrapper ul.is-fixed {
+    bottom: calc(0px + env(safe-area-inset-bottom));
+}
+
+.map-hospitals .main-title {
+    top: 0;
+}
+
+.test-abb .result-main-img {
+    margin-top: calc(52px + env(safe-area-inset-top)) !important
+}
+
+.profile-view {
+	height: calc(100vh - env(safe-area-inset-top));
+}
+
+.contagious-map-container:not(.hidden)>iframe {
+	height: calc(100% - env(safe-area-inset-bottom))
+}
+
+.d-se {
+	top: calc(110px + env(safe-area-inset-top))
+}
+
+.contagious-map-container:not(.hidden) {
+	top: calc(58px + env(safe-area-inset-top));
+	z-index: 2
+}
+
+.welcome.add-bg .back {
+    height: auto;
+}
+
+.welcome.add-bg .back,
+.MainPage
+{
+	overflow: visible;
+}
+
+.MainPage {
+    max-height: calc(100vh - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+}
+
+.ProfileInfo__Container {
+    padding-bottom: calc(30px + env(safe-area-inset-bottom));
+}
+
+.ProfileInfo__Container header {
+	margin-top: calc(0px - env(safe-area-inset-top));
+	padding-top: calc(20px + env(safe-area-inset-top));
+    position: fixed;
+    width: 100%;
+}
+
+.crs-txt>img {
+    height: 16px;
+}
+
+.snackbar {
+	top: calc(20px + env(safe-area-inset-top)) !important;
+}
+
+.search-sec-text {
+    max-height: calc(97% - env(safe-area-inset-top));
+    min-height: 30%;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.8);
+}
+
+.close-video {
+    top: calc(10px + env(safe-area-inset-top));
+}
+
+/*
+.overlay.open:before {
+    content: "";
+    width: 60px;
+    height: 8px;
+    position: absolute;
+    top: 50px;
+    left: calc(50% - 30px);
+    background: #ddd;
+    z-index: 7;
+    border-radius: 4px;
+}*/
+
+.form-test {
+    overflow: visible;
+}
+
+.form-test>main>form {
+    padding-bottom: calc(36px + env(safe-area-inset-bottom));
+}
+
+.slick-slider .slick-list {
+    overflow: visible;
+}
+
+#map-sec-b {
+    padding-bottom: 0;
+}
+
+.notifications-view .subtitle, .faq-view .faq-header .title {
+    top: 0;
+    padding-top: calc(30px + env(safe-area-inset-top));
+}
+
+.notifications-view .notifications-container .notifications-wrapper {
+    padding-bottom: calc(70px + env(safe-area-inset-bottom))
+}
+
+.testing-centers-validation-wrapper .search-sec-text {
+    padding-top: calc(15px + env(safe-area-inset-top));
+    padding-bottom: calc(15px + env(safe-area-inset-bottom));
+}
+
+.faq-view .faq-a {
+    padding-bottom: calc(70px + env(safe-area-inset-bottom));
+}
+
+.map-a.map-hospitals .tab-content {
+    overflow-y: scroll;
+}
+
+.testing-centers-validation-wrapper .header {
+    padding-top: env(safe-area-inset-top);
+}
+
+.search-sec-text.news-details,
+.search-sec-text.terms-and-conditions {
+    padding: calc(15px + env(safe-area-inset-top)) 20px calc(15px + env(safe-area-inset-bottom))
+}
+
+.map-a .list {
+    padding-bottom: calc(70px + env(safe-area-inset-bottom));
+}
+
+.tab-municipalities-wrapper .view-content-wrapper .map #map {
+    height: calc(100vh - env(safe-area-inset-bottom) - calc(70px + env(safe-area-inset-bottom)) - 141px)
+}
+
+.welcome.add-bg {
+    margin-top: calc(0px - env(safe-area-inset-top));
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+    margin-bottom: calc(0 - env(safe-area-inset-bottom));
+    min-height: 100vh;
+}
+
+.welcome .welcome-text.select-country-wrapper button {
+    min-height: 48px;
+}
+
+.welcome .welcome-text.select-country-wrapper .a-select label:after {
+    bottom: 18px;
+    top: auto;
+}
+
+.toda .container-fluid, .test-history-wrapper {
+    padding-bottom: env(safe-area-inset-bottom);
+}
+
+.hospitalsHeader.map-visible {
+    padding: 110px 10px 0;
+}
+
+.bt-status-wrapper {
+    margin-top: calc(0px - env(safe-area-inset-top));
+    background-color: #f7f7f7;
+    padding-top: env(safe-area-inset-top);
+    max-height: calc(100% + env(safe-area-inset-top));
+    overflow: auto;
+}
+    
+.bt-status-wrapper > img {
+    margin: calc(20px + env(safe-area-inset-top)) auto 50px;
+    max-width: 70%;
+}
+
+.search-sec-text.pcrtest-moda-wrapper .pcrtest-modal-header {
+    padding-top: calc(20px + env(safe-area-inset-top));
+}
+
+.search-sec-text.pcrtest-moda-wrapper .pcrtest-form-wrapper {
+    padding: calc(35px + env(safe-area-inset-top)) 20px env(safe-area-inset-bottom);
+}
+
+.news-main-wrapper .news-section {
+    height: calc(100vh - 70px - env(safe-area-inset-bottom) - env(safe-area-inset-top));
+    overflow-y: scroll;
+}
+
+.steps-moda-wrapper .ios-steps-wrapper {
+    padding: 15px 20px calc(15px + env(safe-area-inset-bottom));
+}
+
+.select-lang-modal-wrapper ul.is-fixed {
+    bottom: env(safe-area-inset-bottom);
+}
+
+.tab-municipalities-wrapper .map-a .sdf {
+    padding: calc(94px + env(safe-area-inset-top)) 0 0;
+    z-index: 1;
+}
+
+.tab-municipalities-wrapper .view-content-wrapper {
+    padding-top: 47px;
+}
+
+.tab-municipalities-wrapper .view-content-wrapper.map-active .d-se {
+    top: calc(130px + env(safe-area-inset-top));
+}
+
+.tab-municipalities-wrapper .map-a .sdf .nav-pills {
+    margin-bottom: 0;
+}
+
+.map-active #map, .is-mad #map {
+    height: calc(100vh  - 94px - 70px - env(safe-area-inset-bottom) - env(safe-area-inset-top));
+}
+
+a[href^="http://maps.google.com/maps"]{display:none !important}
+a[href^="https://maps.google.com/maps"]{display:none !important}
+
+.gmnoprint a, .gmnoprint span, .gm-style-cc {
+    display:none;
+}
+.gmnoprint div {
+    background:none !important;
+}
+
+.share-results-modal-wrapper.search-sec-text {
+    padding: env(safe-area-inset-top) 0 calc(15px + env(safe-area-inset-bottom));
+}
+
+.btstatus-view {
+    padding-bottom: calc(70px + env(safe-area-inset-bottom));
+    background-image: none;
+}
+
+.change-lng-intro-wrapper .btn-ok .btn {
+    padding-bottom: env(safe-area-inset-bottom);
+    height: calc(69px + env(safe-area-inset-bottom));
+}
+
+.login-container {
+    height: calc(100vh - env(safe-area-inset-bottom) - env(safe-area-inset-top));
+}
+
+.change-lng-intro-wrapper .container-fluid {
+    height: calc(100vh - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+}
+
+.test-a .test-a-text .home-header.no-margin-rl, .exposure-wrapper .home-header, .exposure-system-wrapper .home-header {
+    margin-top: calc(0px - env(safe-area-inset-top));
+    padding-top: calc(25px + env(safe-area-inset-top));
+}
+
+.share-results-modal-wrapper .share-results-modal-header {
+    padding-top: calc(15px + env(safe-area-inset-top));
+    margin-top: calc(0px - env(safe-area-inset-top));
+}
+
+.share-results-modal-wrapper .share-results-modal .btn-fixed-bottom .btn {
+    margin-bottom: calc(0px - env(safe-area-inset-bottom));
+    padding-bottom: env(safe-area-inset-bottom);
+}
+
+@media screen and (min-width: 640px) {
+
+    .faq-view .faq-a .tab-content {
+        margin-top: 95px;
+    }
+    
+    .map-active {
+        padding-top: 94px;
+    }
+    
+    .news-main-wrapper .news-section {
+        padding-top: 99px;
+    }
+    
+    .hospitalsHeader {
+        padding-top: calc(90px + env(safe-area-inset-top));
+    }
+    
+    .hospitalsHeader.map-visible {
+        padding-top: calc(90px + env(safe-area-inset-top));
+    }
+    
+    .map-a .sdf,
+    .faq-view .sdf,
+    .profile-view .sdf,
+    .test-abb .fixed-header,
+    .news-main-wrapper .sdf,
+    .map-hospitals .main-title {
+        padding-bottom: 15px;
+    }
+    
+    .map-a ul.nav.nav-pills {
+        margin-bottom: 0;
+    }
+
+}

@@ -1,0 +1,15 @@
+/* 
+  InfoPlist.strings
+  COVID 19 CORE
+
+  Created by Emilio Cubo Ruiz on 29/05/2020.
+  Copyright © 2020 COVID 19 CORE. All rights reserved.
+*/
+
+"NSBluetoothAlwaysUsageDescription" = "COVID-19 SAMPLE exchanges Bluetooth signals with nearby devices running the same application. These signs contain an anonymous encrypted identification, which is continually changing to ensure your privacy.";
+"NSBluetoothPeripheralUsageDescription" = "COVID-19 SAMPLE exchanges Bluetooth signals with nearby devices running the same application. These signs contain an anonymous encrypted identification, which is continually changing to ensure your privacy.";
+"NSCameraUsageDescription" = "COVID-19 SAMPLE will need to access Camera";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "COVID-19 SAMPLE zeigt die Gesundheitszentren an, die Ihrem Standort am nächsten liegen.";
+"NSLocationAlwaysUsageDescription" = "COVID-19 SAMPLE zeigt die Gesundheitszentren an, die Ihrem Standort am nächsten liegen.";
+"NSLocationWhenInUseUsageDescription" = "COVID-19 SAMPLE zeigt die Gesundheitszentren an, die Ihrem Standort am nächsten liegen.";
+"NSPhotoLibraryUsageDescription" = "COVID-19 SAMPLE muss auf Fotos zugreifen";
