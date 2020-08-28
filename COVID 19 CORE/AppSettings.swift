@@ -11,11 +11,6 @@ import SwiftKeychainWrapper
 import TrustKit
 import Photos
 
-enum Environment {
-    case dev
-    case pro
-}
-
 extension String {
     struct Settings {
         public static let SETTINGS_TITLE = NSLocalizedString("Settings", comment: "")
@@ -60,10 +55,6 @@ extension String {
 
 struct AppSettings {
     
-    static let environment: Environment = .dev
-    static let protected: Bool = true
-    static let reduceContactTracingSync: Bool = false
-
     static var userId: String? {
         get {
             return KeychainWrapper.standard.string(forKey: "USERID")

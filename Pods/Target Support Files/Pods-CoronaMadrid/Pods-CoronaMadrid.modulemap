@@ -1,6 +1,0 @@
-framework module Pods_CoronaMadrid {
-  umbrella header "Pods-CoronaMadrid-umbrella.h"
-
-  export *
-  module * { export * }
-}

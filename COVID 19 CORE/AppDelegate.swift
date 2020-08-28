@@ -34,7 +34,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             
         }
 
-        if AppSettings.protected && UIDevice.current.isJailBroken { fatalError("Jailbreak detected!") }
+        if AppConfig.protected && UIDevice.current.isJailBroken { fatalError("Jailbreak detected!") }
         
         // MARK: Firebase
         FirebaseApp.configure()
@@ -217,8 +217,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let url = url.standardized
         Logger.DLog(url.absoluteString)
         
-        if url.absoluteString.contains("covid-comunidades"),
-            let url2Open = URL(string: url.absoluteString.replacingOccurrences(of: "covid-comunidades://", with: String.Webapp.URL)) {
+        if url.absoluteString.contains(String.General.URL_SCHEME),
+            let url2Open = URL(string: url.absoluteString.replacingOccurrences(of: "\(String.General.URL_SCHEME)://", with: String.Webapp.URL)) {
                 self.openUrl = url2Open
                 NotificationCenter.default.post(name: NSNotification.Name.handleOpenUrl, object:self.openUrl!)
         }

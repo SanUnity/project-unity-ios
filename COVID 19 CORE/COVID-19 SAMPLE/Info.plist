@@ -28,7 +28,7 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>covid-comunidades</string>
+				<string>covid-sample</string>
 			</array>
 		</dict>
 	</array>

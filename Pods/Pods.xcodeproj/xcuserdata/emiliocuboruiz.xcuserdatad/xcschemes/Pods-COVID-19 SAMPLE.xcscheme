@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AF39FBFF7FB9455B666D3D9DB9CFDC75"
-               BuildableName = "Pods_MiVuelta.framework"
-               BlueprintName = "Pods-MiVuelta"
+               BlueprintIdentifier = "55317CC8D3000F50B4AE9837373813D2"
+               BuildableName = "Pods_COVID_19_SAMPLE.framework"
+               BlueprintName = "Pods-COVID-19 SAMPLE"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

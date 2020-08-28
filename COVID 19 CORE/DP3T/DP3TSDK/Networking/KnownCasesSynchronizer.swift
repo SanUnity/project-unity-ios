@@ -80,7 +80,7 @@ class KnownCasesSynchronizer {
             lastBatch = KnownCasesSynchronizer.initializeSynchronizerIfNeeded().timeIntervalSince1970
         }
     
-        if AppSettings.reduceContactTracingSync {
+        if AppConfig.reduceContactTracingSync {
             lastBatch = now.addingTimeInterval(-TimeInterval.day).timeIntervalSince1970
         }
         let batchesToLoad = Int((nowTimestamp - lastBatch) / Default.shared.parameters.networking.batchLength)

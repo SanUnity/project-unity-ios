@@ -18,6 +18,17 @@ extension Data {
     
 }
 
+enum Environment {
+    case dev
+    case pro
+}
+
+struct AppConfig {
+    static let environment: Environment = .dev
+    static let protected: Bool = true
+    static let reduceContactTracingSync: Bool = false
+}
+
 extension String {
 
     struct General {
@@ -33,12 +44,17 @@ extension String {
         public static let HAS_ONBOARDING: Bool = true
         public static let EXTERNAL_URLS: [String] = []
         public static let PASSPORT_NEEDED: Bool = false
+        public static let URL_SCHEME: String = "covid-sample"
     }
 
     // WEBAPP URL
     struct Webapp {
-        public static let HOST = "*** YOUR FRONT DOMAIN HERE ***"
-        public static let HOSTS = ["*** YOUR DOMAIN / DOMAINS IN APP HERE ***"]
+        public static var HOST: String {
+            return AppSettings.environment == .dev ? "*** YOUR DEV FRONT DOMAIN HERE ***" : "*** YOUR PRO FRONT DOMAIN HERE ***"
+        }
+        public static var HOSTS: [String] {
+            return AppSettings.environment == .dev ? ["*** YOUR DEV DOMAIN / DOMAINS IN APP HERE ***"] : ["*** YOUR PRO DOMAIN / DOMAINS IN APP HERE ***"]
+        }
         public static let URL = "https://\(String.Webapp.HOST)/"
         public static let PARAMS = "?so=iOS&v=\(Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "")"
     }
@@ -46,7 +62,7 @@ extension String {
     // API URL & METHODS
     struct Api {
         public static var HOST: String {
-            return AppSettings.environment == .dev ? "*** YOUR DEVELOP FRONT DOMAIN HERE ***" : "*** YOUR PRODUCTION FRONT DOMAIN HERE ***"
+            return AppConfig.environment == .dev ? "*** YOUR DEVELOP FRONT DOMAIN HERE ***" : "*** YOUR PRODUCTION FRONT DOMAIN HERE ***"
         }
         public static let BASE_URL = "https://\(String.Api.HOST)/api/"
         public static let GET_TEMPIDS = "users/bluetrace/tempIDs"
@@ -61,7 +77,7 @@ extension String {
     // SSL PINNING
     struct Pinning {
         public static var PUBLIC_KEY_HASHES: [String] {
-            return AppSettings.protected ? ["*** YOUR PUBLIC HEY HASH HERE ***","*** YOUR OTHER PUBLIC HASH HERE ***"] : []
+            return AppConfig.protected ? ["*** YOUR PUBLIC HEY HASH HERE ***","*** YOUR OTHER PUBLIC HASH HERE ***"] : []
         }
     }
 

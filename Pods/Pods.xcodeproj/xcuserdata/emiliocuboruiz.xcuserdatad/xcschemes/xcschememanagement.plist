@@ -119,27 +119,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-COVID-19 CCAA.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-COVID-19 CDMX.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-COVID-19MX.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-CoronaMadrid.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-MiVuelta.xcscheme</key>
+		<key>Pods-COVID-19 SAMPLE.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

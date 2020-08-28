@@ -97,7 +97,7 @@ public struct DP3TParameters: Codable {
 
         public var contactAttenuationThreshold: Double = 73.0
 
-        public var numberOfWindowsForExposure: Int = AppSettings.reduceContactTracingSync ? 1 : 2
+        public var numberOfWindowsForExposure: Int = AppConfig.reduceContactTracingSync ? 1 : 2
 
         public var windowDuration: TimeInterval = .minute * 6 // .minute * 5
     }
