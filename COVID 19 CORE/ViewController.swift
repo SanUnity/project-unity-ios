@@ -281,9 +281,7 @@ extension ViewController: WKNavigationDelegate, WKUIDelegate {
 
             if !self.isLoadWeb {
                 self.isLoadWeb = true
-                if self.isTimePass {
-                    self.hideSplashScreen()
-                }
+                self.hideSplashScreen()
             }
         }
 
