@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -15,7 +16,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="COVID_19MX" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="COVID_19_SAMPLE" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -50,7 +51,7 @@
                                         </constraints>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" red="0.0078431372550000003" green="0.68627450980000004" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstItem="tqV-FX-kfA" firstAttribute="leading" secondItem="qxg-sg-IsK" secondAttribute="leading" id="BQy-RQ-DJv"/>
                                     <constraint firstItem="hXw-re-q1h" firstAttribute="leading" secondItem="qxg-sg-IsK" secondAttribute="leading" constant="80" id="ERd-a2-fVN"/>
@@ -105,7 +106,7 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.0078431372550000003" green="0.68627450980000004" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="qxg-sg-IsK" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="4cf-Op-3Mu"/>
                             <constraint firstAttribute="bottom" secondItem="Y4l-ds-r3g" secondAttribute="bottom" id="7UV-2c-N5Q"/>
@@ -142,7 +143,7 @@
         <!--Onboarding Screen-->
         <scene sceneID="1LL-f8-xCx">
             <objects>
-                <viewController storyboardIdentifier="onboardingVC" id="ewG-OO-Jlm" userLabel="Onboarding Screen" customClass="OnboardingController" customModule="COVID_19MX" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="onboardingVC" id="ewG-OO-Jlm" userLabel="Onboarding Screen" customClass="OnboardingController" customModule="COVID_19_SAMPLE" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IUf-3U-hC8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -157,7 +158,7 @@
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" translatesAutoresizingMaskIntoConstraints="NO" id="Xzj-j9-ewI">
                                 <rect key="frame" x="179.5" y="746.5" width="55" height="37"/>
                                 <color key="pageIndicatorTintColor" red="0.83137254901960778" green="0.83137254901960778" blue="0.83137254901960778" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="currentPageIndicatorTintColor" red="0.92549019607843142" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="currentPageIndicatorTintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                             </pageControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -183,28 +184,28 @@
         <!--View Controller-->
         <scene sceneID="P8E-8o-1tB">
             <objects>
-                <viewController storyboardIdentifier="qrVC" id="zNf-ul-vd8" customClass="QRViewController" customModule="COVID_19MX" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="qrVC" id="zNf-ul-vd8" customClass="QRViewController" customModule="COVID_19_SAMPLE" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Y0q-is-Wat">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="YD9-7A-rEk">
-                                <rect key="frame" x="20" y="84" width="374" height="539.5"/>
+                                <rect key="frame" x="20" y="84" width="374" height="534.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Read the center QR Code" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7H7-WT-omZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="33"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="28"/>
                                         <fontDescription key="fontDescription" name="Bitter-Bold" family="Bitter" pointSize="24"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HRS-Eu-Kow">
-                                        <rect key="frame" x="0.0" y="73" width="374" height="300"/>
+                                        <rect key="frame" x="0.0" y="68" width="374" height="300"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Of-sS-QyE">
                                                 <rect key="frame" x="0.0" y="0.0" width="37" height="300"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Poc-Wr-wyk" customClass="QRScannerView" customModule="COVID_19MX" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Poc-Wr-wyk" customClass="QRScannerView" customModule="COVID_19_SAMPLE" customModuleProvider="target">
                                                 <rect key="frame" x="37" y="0.0" width="300" height="300"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <constraints>
@@ -222,21 +223,21 @@
                                         </constraints>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We are testing this system in a few centers. Use it only if you are expressly instructed to do so." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aho-p2-aCw">
-                                        <rect key="frame" x="0.0" y="413" width="374" height="38.5"/>
+                                        <rect key="frame" x="0.0" y="408" width="374" height="38.5"/>
                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eD8-D7-24g">
-                                        <rect key="frame" x="0.0" y="491.5" width="374" height="48"/>
+                                        <rect key="frame" x="0.0" y="486.5" width="374" height="48"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u3R-Ga-J0W">
-                                                <rect key="frame" x="0.0" y="0.0" width="120" height="48"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="122" height="48"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GaO-ot-WU2">
-                                                <rect key="frame" x="120" y="0.0" width="134" height="48"/>
-                                                <color key="backgroundColor" red="0.51372549019607838" green="0.19607843137254902" blue="0.26666666666666666" alpha="1" colorSpace="calibratedRGB"/>
+                                                <rect key="frame" x="122" y="0.0" width="130" height="48"/>
+                                                <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="48" id="vow-Vu-UK8"/>
                                                 </constraints>
@@ -250,7 +251,7 @@
                                                 </connections>
                                             </button>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MSW-mi-aJs">
-                                                <rect key="frame" x="254" y="0.0" width="120" height="48"/>
+                                                <rect key="frame" x="252" y="0.0" width="122" height="48"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </view>
                                         </subviews>

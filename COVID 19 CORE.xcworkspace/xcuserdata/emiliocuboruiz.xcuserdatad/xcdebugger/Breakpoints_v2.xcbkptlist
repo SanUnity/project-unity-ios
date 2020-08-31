@@ -260,34 +260,34 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "5B78F2F9-9BF9-47B6-822E-05F1E3ECFF91 - a3a296e3eb2c764f"
+                  uuid = "5B78F2F9-9BF9-47B6-822E-05F1E3ECFF91 - 78a64198e30d5d0e"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "MyReturn.AppDelegate.notificaton(Swift.Dictionary&lt;Swift.AnyHashable, Any&gt;) -&gt; ()"
-                  moduleName = "MyReturn"
+                  symbolName = "COVID_19_SAMPLE.AppDelegate.notificaton(Swift.Dictionary&lt;Swift.AnyHashable, Any&gt;) -&gt; ()"
+                  moduleName = "COVID-19 SAMPLE"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/emiliocuboruiz/Dropbox%20(Personal)/Public/COVID%2019%20CORE/COVID%2019%20CORE/AppDelegate.swift"
+                  urlString = "file:///Users/emiliocuboruiz/Dropbox%20(Personal)/Public/COVID%2019%20Open%20Source/COVID%2019%20CORE/AppDelegate.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "476"
-                  endingLineNumber = "476"
-                  offsetFromSymbolStart = "6668">
+                  startingLineNumber = "467"
+                  endingLineNumber = "467"
+                  offsetFromSymbolStart = "8391">
                </Location>
                <Location
-                  uuid = "5B78F2F9-9BF9-47B6-822E-05F1E3ECFF91 - a3a296e3eb2c764f"
+                  uuid = "5B78F2F9-9BF9-47B6-822E-05F1E3ECFF91 - 78a64198e30d5d0e"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "MyReturn.AppDelegate.notificaton(Swift.Dictionary&lt;Swift.AnyHashable, Any&gt;) -&gt; ()"
-                  moduleName = "MyReturn"
+                  symbolName = "COVID_19_SAMPLE.AppDelegate.notificaton(Swift.Dictionary&lt;Swift.AnyHashable, Any&gt;) -&gt; ()"
+                  moduleName = "COVID-19 SAMPLE"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/emiliocuboruiz/Dropbox%20(Personal)/Public/COVID%2019%20CORE/COVID%2019%20CORE/AppDelegate.swift"
+                  urlString = "file:///Users/emiliocuboruiz/Dropbox%20(Personal)/Public/COVID%2019%20Open%20Source/COVID%2019%20CORE/AppDelegate.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "476"
-                  endingLineNumber = "476"
-                  offsetFromSymbolStart = "6732">
+                  startingLineNumber = "467"
+                  endingLineNumber = "467"
+                  offsetFromSymbolStart = "8472">
                </Location>
             </Locations>
          </BreakpointContent>

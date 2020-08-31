@@ -99,6 +99,7 @@
 		A0D45D3E24A23E8800D1F6FD /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D45D3924A23E8800D1F6FD /* QRViewController.swift */; };
 		A0FB543B247FA7E100C612CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0FB5435247FA7E100C612CA /* Main.storyboard */; };
 		A0FB544C247FAD0400C612CA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0FB544E247FAD0400C612CA /* Localizable.strings */; };
+		A0FF8AD524FD3B4900A5DEDE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0FF8AD424FD3B4900A5DEDE /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -271,6 +272,7 @@
 		A0FB547D247FC54500C612CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0FB547E247FCC7E00C612CA /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Main.strings"; sourceTree = "<group>"; };
 		A0FB547F247FCC8300C612CA /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A0FF8AD424FD3B4900A5DEDE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B00EEE6CE90DCC73F4741772 /* Pods_COVID_19MX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_COVID_19MX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD6E58BCA959728728F3FC92 /* Pods_MiVuelta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiVuelta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D74C4DB5C0EB668D2FFBB227 /* Pods_COVID_19_CDMX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_COVID_19_CDMX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -501,6 +503,7 @@
 				A066AEDA24754A9300D661B3 /* LaunchScreen.storyboard */,
 				A0FB547D247FC54500C612CA /* Info.plist */,
 				A05F14E82480EE1A005EED62 /* InfoPlist.strings */,
+				A0FF8AD424FD3B4900A5DEDE /* GoogleService-Info.plist */,
 			);
 			path = "COVID-19 SAMPLE";
 			sourceTree = "<group>";
@@ -770,6 +773,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0FB543B247FA7E100C612CA /* Main.storyboard in Resources */,
+				A0FF8AD524FD3B4900A5DEDE /* GoogleService-Info.plist in Resources */,
 				A05F14E62480EE1A005EED62 /* InfoPlist.strings in Resources */,
 				A066AEC2247544E000D661B3 /* styles.css in Resources */,
 				A02141682490F4FA00431E6D /* Slide.xib in Resources */,

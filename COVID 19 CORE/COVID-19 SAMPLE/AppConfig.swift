@@ -12,7 +12,7 @@ extension Data {
     
     struct General {
         public static var JWT_PUBLIC_KEY: Data? {
-            return nil // *** YOUR JWT PUBLIC KEY HERE ***
+            return Data(base64Encoded: "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUZrd0V3WUhLb1pJemowQ0FRWUlLb1pJemowREFRY0RRZ0FFbXRQb3NheERoRFRxMjltQ3pKblpMem85Wm4veQpnREp4SHRUcHFMc3RDMTZzYVFySEkzL1ByKzQ4MUVEcDJ6eDREakJVSjBVdWFZWWFDWWhaOHZvSVFnPT0KLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0t") // *** YOUR JWT PUBLIC KEY HERE ***
         }
     }
     
@@ -38,7 +38,7 @@ extension String {
         public static let RETRY = NSLocalizedString("Retry", comment: "")
         public static let ERROR = NSLocalizedString("Error", comment: "")
         public static let SHOW = NSLocalizedString("Show", comment: "")
-        public static let OrgID = "ES_CA"
+        public static let OrgID = "ES_PU"
         public static let CONTACT_TRACING_MODEL: ContactTracingModel = .none
         public static let BUSINESS_DAYS_TRACING: Bool = false
         public static let HAS_ONBOARDING: Bool = true
@@ -50,10 +50,10 @@ extension String {
     // WEBAPP URL
     struct Webapp {
         public static var HOST: String {
-            return AppSettings.environment == .dev ? "*** YOUR DEV FRONT DOMAIN HERE ***" : "*** YOUR PRO FRONT DOMAIN HERE ***"
+            return AppConfig.environment == .dev ? "app-unity.byglob.com" : "app-unity.byglob.com" // "*** YOUR DEV FRONT DOMAIN HERE ***" : "*** YOUR PRO FRONT DOMAIN HERE ***"
         }
         public static var HOSTS: [String] {
-            return AppSettings.environment == .dev ? ["*** YOUR DEV DOMAIN / DOMAINS IN APP HERE ***"] : ["*** YOUR PRO DOMAIN / DOMAINS IN APP HERE ***"]
+            return AppConfig.environment == .dev ? ["app-unity.byglob.com"] : ["app-unity.byglob.com"] // ["*** YOUR DEV DOMAIN / DOMAINS IN APP HERE ***"] : ["*** YOUR PRO DOMAIN / DOMAINS IN APP HERE ***"]
         }
         public static let URL = "https://\(String.Webapp.HOST)/"
         public static let PARAMS = "?so=iOS&v=\(Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "")"
@@ -62,7 +62,7 @@ extension String {
     // API URL & METHODS
     struct Api {
         public static var HOST: String {
-            return AppConfig.environment == .dev ? "*** YOUR DEVELOP FRONT DOMAIN HERE ***" : "*** YOUR PRODUCTION FRONT DOMAIN HERE ***"
+            return AppConfig.environment == .dev ? "back-unity.byglob.com" : "back-unity.byglob.com" // "*** YOUR DEVELOP FRONT DOMAIN HERE ***" : "*** YOUR PRODUCTION FRONT DOMAIN HERE ***"
         }
         public static let BASE_URL = "https://\(String.Api.HOST)/api/"
         public static let GET_TEMPIDS = "users/bluetrace/tempIDs"
@@ -77,7 +77,7 @@ extension String {
     // SSL PINNING
     struct Pinning {
         public static var PUBLIC_KEY_HASHES: [String] {
-            return AppConfig.protected ? ["*** YOUR PUBLIC HEY HASH HERE ***","*** YOUR OTHER PUBLIC HASH HERE ***"] : []
+            return AppConfig.protected ? ["47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=","Y9mvm0exBk1JoQ57f9Vm28jKo5lFm/woKcVxrYxu80o="] : [] // ["*** YOUR PUBLIC HEY HASH HERE ***","*** YOUR OTHER PUBLIC HASH HERE ***"] : []
         }
     }
 

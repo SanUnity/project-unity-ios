@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>432983843282-k8siq6klpj22sdet3k9upqq6sedmp38m.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.432983843282-k8siq6klpj22sdet3k9upqq6sedmp38m</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>432983843282-pfdg3d0n6b88s7itjppnc59e6nmf71p4.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDhBgGohURtfH3d3GfRtdpPQxkXt_aofL8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>432983843282</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>es.covid19.sample</string>
+	<key>PROJECT_ID</key>
+	<string>covid-19-ccaa</string>
+	<key>STORAGE_BUCKET</key>
+	<string>covid-19-ccaa.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:432983843282:ios:620c98eeebcc0e6b91e80b</string>
+	<key>DATABASE_URL</key>
+	<string>https://covid-19-ccaa.firebaseio.com</string>
+</dict>
+</plist>

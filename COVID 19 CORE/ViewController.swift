@@ -613,7 +613,7 @@ extension ViewController: WKScriptMessageHandler {
     
     func shareCompleted(_ success: Bool) {
         let javaScriptString = "shareResult('\(success ? 1 : 2)');"
-        self.evaluateString(<#T##javaScriptString: String##String#>)
+        self.evaluateString(javaScriptString)
     }
     
     func downloadImage(from url: URL, completion: @escaping (UIImage?)->()) {
