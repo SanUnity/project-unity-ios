@@ -1,6 +1,6 @@
 # PROJECT UNITY
 
-El Project Unity es un projecto abierto con el que se pretende ayudar en la lucha contra el COVID-19. Dentro del proyecto, desde iOS se pretende dar a los usuarios finales una herramienta para iPhone, iPad y iPod. La parte nativa de la aplicación muestra en un WKWebView la webapp del front, gestionando los permisos e intercomunicación del front y la parte nativa.
+Project Unity es un proyecto abierto con el que se pretende ayudar en la lucha contra el COVID-19. Dentro del proyecto, desde iOS se pretende dar a los usuarios finales una herramienta para iPhone, iPad y iPod. La parte nativa de la aplicación muestra en un WKWebView la webapp del front, gestionando los permisos e intercomunicación del front y la parte nativa.
 
 ### Lenguaje de desarrollo
 
