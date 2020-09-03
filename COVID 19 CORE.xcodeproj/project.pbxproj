@@ -95,6 +95,7 @@
 		A066AED924754A7300D661B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A066AED824754A7300D661B3 /* Assets.xcassets */; };
 		A066AEDB24754A9300D661B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A066AEDA24754A9300D661B3 /* LaunchScreen.storyboard */; };
 		A066AEDD24754AB800D661B3 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A066AEDC24754AB800D661B3 /* AppConfig.swift */; };
+		A09A7B052500D4B7006B08D3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A09A7B042500D4B7006B08D3 /* README.md */; };
 		A0B820BD248A2E4F00EAFC0B /* DP3TManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B820B9248A2E4F00EAFC0B /* DP3TManager.swift */; };
 		A0D45D3E24A23E8800D1F6FD /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D45D3924A23E8800D1F6FD /* QRViewController.swift */; };
 		A0FB543B247FA7E100C612CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0FB5435247FA7E100C612CA /* Main.storyboard */; };
@@ -219,6 +220,7 @@
 		A07D261A2492605D00845A59 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A07D261B2492605D00845A59 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A095ABBA242DF27C00EA7FA5 /* AppSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		A09A7B042500D4B7006B08D3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A0B820B9248A2E4F00EAFC0B /* DP3TManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DP3TManager.swift; sourceTree = "<group>"; };
 		A0D45D3924A23E8800D1F6FD /* QRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
 		A0D45D4024A2464A00D1F6FD /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
@@ -639,6 +641,7 @@
 		A0DC00D22428B71F00FEF982 = {
 			isa = PBXGroup;
 			children = (
+				A09A7B042500D4B7006B08D3 /* README.md */,
 				A0DC00DD2428B71F00FEF982 /* COVID 19 CORE */,
 				A0DC00DC2428B71F00FEF982 /* Products */,
 				B15A3BF5DA5EF251C7946194 /* Pods */,
@@ -778,6 +781,7 @@
 				A066AEC2247544E000D661B3 /* styles.css in Resources */,
 				A02141682490F4FA00431E6D /* Slide.xib in Resources */,
 				A0FB544C247FAD0400C612CA /* Localizable.strings in Resources */,
+				A09A7B052500D4B7006B08D3 /* README.md in Resources */,
 				A066AEDB24754A9300D661B3 /* LaunchScreen.storyboard in Resources */,
 				A066AED924754A7300D661B3 /* Assets.xcassets in Resources */,
 			);
