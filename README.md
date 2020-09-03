@@ -77,7 +77,7 @@ BlueTrace es un protocolo que preserva la privacidad para el rastreo de contacto
 
 BlueTrace está diseñado para el registro de proximidad descentralizado y complementa el rastreo de contactos centralizado por parte de las autoridades de salud pública. El registro de proximidad mediante Bluetooth aborda una limitación clave del rastreo manual de contactos: que depende de la memoria de una persona y, por lo tanto, se limita a los contactos que una persona conoce y recuerda haber conocido. Por lo tanto, BlueTrace permite que el rastreo de contactos sea más escalable y requiera menos recursos.
 
-### Centralizado: DP^3T (Modelo Suiza
+### Centralizado: DP^3T (Modelo Suiza)
 El proyecto Decentralized Privacy-Preserving Proximity Tracing (DP-3T) es un protocolo abierto para el rastreo de proximidad COVID-19 que utiliza la funcionalidad Bluetooth Low Energy en dispositivos móviles que garantiza que los datos personales permanezcan completamente en el teléfono de una persona. Fue elaborado por un equipo central de más de 25 científicos e investigadores académicos de toda Europa. También ha sido examinado y mejorado por la comunidad en general.
 
 DP-3T es un esfuerzo independiente iniciado en EPFL y ETHZ que produjo este protocolo y que lo está implementando en una aplicación y un servidor de código abierto.)
