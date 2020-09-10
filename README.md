@@ -1,5 +1,13 @@
 
-# PROJECT UNITY
+# PROJECT UNITY - iOS
+
+<p align="center">
+    <a href="https://github.com/SanUnity/project-unity-front/commits/" title="Last Commit"><img src="https://img.shields.io/github/last-commit/SanUnity/project-unity-front?style=flat"></a>
+    <a href="https://github.com/SanUnity/project-unity-front//issues" title="Open Issues"><img src="https://img.shields.io/github/issues/SanUnity/project-unity-front?style=flat"></a>
+    <a href="https://github.com/SanUnity/project-unity-front/blob/master/LICENSE" title="License"><img src="https://img.shields.io/badge/License-AGPL--3.0-blue?style=flat"></a>
+</p>
+
+Project Unity is an open project that aims to help in the fight against COVID-19.
 
 Project Unity es un proyecto abierto con el que se pretende ayudar en la lucha contra el COVID-19. Dentro del proyecto, desde iOS se pretende dar a los usuarios finales una herramienta para iPhone, iPad y iPod. La parte nativa de la aplicación muestra en un WKWebView la webapp del front, gestionando los permisos e intercomunicación del front y la parte nativa.
 
@@ -98,3 +106,18 @@ También habrá que desactivar del target de la app los archivos en la capeta DP
 
 Será necesario especificar ENDeveloperRegion en el Info.plist indicando el ISO 3166-1 country code (por ejemplo, “CA” para Canada), o el ISO 3166-1/3166-2 country code con el subdivision code (por ejemplo, “US-CA” para California).
 
+## Support and Feedback
+
+The following channels are available for discussions, feedback, and support requests:
+
+| Type       | Channel                                                |
+| ---------- | ------------------------------------------------------ |
+| **Issues** | <a href="https://github.com/SanUnity/project-unity-front//issues" title="Open Issues"><img src="https://img.shields.io/github/issues/SanUnity/project-unity-front?style=flat"></a> |
+
+## Contribute
+
+If you want to contribute with this exciting project follow the steps in [How to create a Pull Request in GitHub](https://opensource.com/article/19/7/create-pull-request-github).
+
+## License
+
+This Source Code Form is subject to the terms of the [AGPL, v. 3.0](https://www.gnu.org/licenses/agpl-3.0.html).
