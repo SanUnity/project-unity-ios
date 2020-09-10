@@ -112,7 +112,7 @@ The following channels are available for discussions, feedback, and support requ
 
 | Type       | Channel                                                |
 | ---------- | ------------------------------------------------------ |
-| **Issues** | <a href="https://github.com/SanUnity/project-unity-front//issues" title="Open Issues"><img src="https://img.shields.io/github/issues/SanUnity/project-unity-front?style=flat"></a> |
+| **Issues** | <a href="https://github.com/SanUnity/project-unity-ios//issues" title="Open Issues"><img src="https://img.shields.io/github/issues/SanUnity/project-unity-ios?style=flat"></a> |
 
 ## Contribute
 
