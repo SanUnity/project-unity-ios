@@ -3,13 +3,13 @@
 
 <p align="center">
     <a href="https://github.com/SanUnity/project-unity-ios/commits/" title="Last Commit"><img src="https://img.shields.io/github/last-commit/SanUnity/project-unity-front?style=flat"></a>
-    <a href="https://github.com/SanUnity/project-unity-ios//issues" title="Open Issues"><img src="https://img.shields.io/github/issues/SanUnity/project-unity-front?style=flat"></a>
+    <a href="https://github.com/SanUnity/project-unity-ios/issues" title="Open Issues"><img src="https://img.shields.io/github/issues/SanUnity/project-unity-front?style=flat"></a>
     <a href="https://github.com/SanUnity/project-unity-ios/blob/master/LICENSE" title="License"><img src="https://img.shields.io/badge/License-AGPL--3.0-blue?style=flat"></a>
 </p>
 
 Project Unity is an open project that aims to help in the fight against COVID-19.
 
-Project Unity es un proyecto abierto con el que se pretende ayudar en la lucha contra el COVID-19. Dentro del proyecto, desde iOS se pretende dar a los usuarios finales una herramienta para iPhone, iPad y iPod. La parte nativa de la aplicación muestra en un WKWebView la webapp del front, gestionando los permisos e intercomunicación del front y la parte nativa.
+Dentro del proyecto, desde iOS se pretende dar a los usuarios finales una herramienta para iPhone, iPad y iPod. La parte nativa de la aplicación muestra en un WKWebView la webapp del front, gestionando los permisos e intercomunicación del front y la parte nativa.
 
 ## Lenguaje de desarrollo
 
