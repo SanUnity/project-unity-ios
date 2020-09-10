@@ -2,9 +2,9 @@
 # PROJECT UNITY - iOS
 
 <p align="center">
-    <a href="https://github.com/SanUnity/project-unity-front/commits/" title="Last Commit"><img src="https://img.shields.io/github/last-commit/SanUnity/project-unity-front?style=flat"></a>
-    <a href="https://github.com/SanUnity/project-unity-front//issues" title="Open Issues"><img src="https://img.shields.io/github/issues/SanUnity/project-unity-front?style=flat"></a>
-    <a href="https://github.com/SanUnity/project-unity-front/blob/master/LICENSE" title="License"><img src="https://img.shields.io/badge/License-AGPL--3.0-blue?style=flat"></a>
+    <a href="https://github.com/SanUnity/project-unity-ios/commits/" title="Last Commit"><img src="https://img.shields.io/github/last-commit/SanUnity/project-unity-front?style=flat"></a>
+    <a href="https://github.com/SanUnity/project-unity-ios//issues" title="Open Issues"><img src="https://img.shields.io/github/issues/SanUnity/project-unity-front?style=flat"></a>
+    <a href="https://github.com/SanUnity/project-unity-ios/blob/master/LICENSE" title="License"><img src="https://img.shields.io/badge/License-AGPL--3.0-blue?style=flat"></a>
 </p>
 
 Project Unity is an open project that aims to help in the fight against COVID-19.
