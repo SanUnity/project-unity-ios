@@ -5,6 +5,7 @@
  */
 
 import Foundation
+import Firebase
 
 /// Keychain Errors
 enum KeychainError: Error {
@@ -51,7 +52,9 @@ class Keychain {
             return .failure(.notFound)
         case noErr:
             guard let item = item as? Data else {
-                fatalError("Keychain not returning Data")
+                // fatalError("Keychain not returning Data")
+                Analytics.logEvent("keychain_not_returning_data", parameters: nil)
+                return .failure(.cannotAccess(status))
             }
             do {
                 let object = try JSONDecoder().decode(T.self, from: item)

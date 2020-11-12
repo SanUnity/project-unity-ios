@@ -1,4 +1,3 @@
-
 # PROJECT UNITY - iOS
 
 <p align="center">
@@ -80,7 +79,7 @@ El envío de información desde la parte nativa a la webapp se realiza mediante 
 
 El proyecto permite implementar tres modos de rastreo de contactos:
 
-### Descentralizado: BlueTrace Protocol (Modelo Singaput)
+### Descentralizado: BlueTrace Protocol (Modelo Singapur)
 BlueTrace es un protocolo que preserva la privacidad para el rastreo de contactos impulsado por la comunidad mediante dispositivos Bluetooth, que permite la interoperabilidad global.
 
 BlueTrace está diseñado para el registro de proximidad descentralizado y complementa el rastreo de contactos centralizado por parte de las autoridades de salud pública. El registro de proximidad mediante Bluetooth aborda una limitación clave del rastreo manual de contactos: que depende de la memoria de una persona y, por lo tanto, se limita a los contactos que una persona conoce y recuerda haber conocido. Por lo tanto, BlueTrace permite que el rastreo de contactos sea más escalable y requiera menos recursos.
@@ -88,7 +87,7 @@ BlueTrace está diseñado para el registro de proximidad descentralizado y compl
 ### Centralizado: DP^3T (Modelo Suiza)
 El proyecto Decentralized Privacy-Preserving Proximity Tracing (DP-3T) es un protocolo abierto para el rastreo de proximidad COVID-19 que utiliza la funcionalidad Bluetooth Low Energy en dispositivos móviles que garantiza que los datos personales permanezcan completamente en el teléfono de una persona. Fue elaborado por un equipo central de más de 25 científicos e investigadores académicos de toda Europa. También ha sido examinado y mejorado por la comunidad en general.
 
-DP-3T es un esfuerzo independiente iniciado en EPFL y ETHZ que produjo este protocolo y que lo está implementando en una aplicación y un servidor de código abierto.)
+DP-3T es un esfuerzo independiente iniciado en EPFL y ETHZ que produjo este protocolo y que lo está implementando en una aplicación y un servidor de código abierto.
 
 ### Exposure Notification API: Apple/Google Framework
 La API de notificaciones de exposición es un esfuerzo conjunto entre Apple y Google para proporcionar la funcionalidad principal para crear aplicaciones iOS y Android para notificar a los usuarios de una posible exposición a casos confirmados de COVID-19.

@@ -39,6 +39,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        if let appDelegate = UIApplication.shared.delegate as? AppDelegate {
+            ContactTracingManager.sharedInstance.initialize(trustKitCertificatePinning: appDelegate.trustKitCertificatePinning)
+            if String.General.CONTACT_TRACING_MODEL != .none, NSLocalizedString(String.General.APP_NAME, comment: "") == NSLocalizedString("MyReturn", comment: "") {
+                appDelegate.checkForTracing()
+                Timer.scheduledTimer(timeInterval: 60, target: appDelegate, selector: #selector(appDelegate.checkForTracing), userInfo: nil, repeats: true)
+            }
+        }
+
         noInternetConnectionView.layer.cornerRadius = 4
         noInternetConnectionView.layer.shadowColor = UIColor.black.cgColor
         noInternetConnectionView.layer.shadowOpacity = 0.5

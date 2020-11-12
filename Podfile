@@ -2,13 +2,12 @@
 platform :ios, '13.5'
 
 def shared_pods
-    pod 'Firebase/Analytics'
-    pod 'AWSMobileClient', '~> 2.13.0'
-    pod 'SwiftKeychainWrapper'
-    pod 'TrustKit'
-    pod 'ReachabilitySwift'
-    pod 'Fabric', '~> 1.10.2'
-    pod 'Crashlytics', '~> 3.14.0'
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Crashlytics'
+  pod 'AWSMobileClient', '~> 2.13.0'
+  pod 'SwiftKeychainWrapper'
+  pod 'TrustKit'
+  pod 'ReachabilitySwift'
 end
 
 def exposure_decentralized

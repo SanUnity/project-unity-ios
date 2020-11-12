@@ -6,6 +6,7 @@
 
 import Foundation
 import UIKit.UIApplication
+import Firebase
 
 /// A delegate for the DP3T tracing
 public protocol DP3TTracingDelegate: AnyObject {
@@ -82,7 +83,9 @@ public enum DP3TTracing {
     /// Starts Bluetooth tracing
     public static func startTracing() throws {
         guard let instance = instance else {
-            fatalError("DP3TSDK not initialized call `initialize(with:delegate:)`")
+            // fatalError("DP3TSDK not initialized call `initialize(with:delegate:)`")
+            Analytics.logEvent("DP3TSDK not initialized call `initialize(with:delegate:)`", parameters: nil)
+            return
         }
         try instance.startTracing()
     }
@@ -90,7 +93,9 @@ public enum DP3TTracing {
     /// Stops Bluetooth tracing
     public static func stopTracing() {
         guard let instance = instance else {
-            fatalError("DP3TSDK not initialized call `initialize(with:delegate:)`")
+            // fatalError("DP3TSDK not initialized call `initialize(with:delegate:)`")
+            Analytics.logEvent("DP3TSDK not initialized call `initialize(with:delegate:)`", parameters: nil)
+            return
         }
         instance.stopTracing()
     }
@@ -99,7 +104,9 @@ public enum DP3TTracing {
     /// - Parameter callback: callback
     public static func sync(callback: ((Result<Void, DP3TTracingError>) -> Void)?) {
         guard let instance = instance else {
-            fatalError("DP3TSDK not initialized call `initialize(with:delegate:)`")
+            // fatalError("DP3TSDK not initialized call `initialize(with:delegate:)`")
+            Analytics.logEvent("DP3TSDK not initialized call `initialize(with:delegate:)`", parameters: nil)
+            return
         }
         instance.sync { result in
             DispatchQueue.main.async {
@@ -112,8 +119,9 @@ public enum DP3TTracing {
     /// - Parameter callback: callback
     public static func status(callback: (Result<TracingState, DP3TTracingError>) -> Void) {
         guard let instance = instance else {
-            return
             // fatalError("DP3TSDK not initialized call `initialize(with:delegate:)`")
+            Analytics.logEvent("DP3TSDK not initialized call `initialize(with:delegate:)`", parameters: nil)
+            return
         }
         instance.status(callback: callback)
     }
@@ -129,7 +137,9 @@ public enum DP3TTracing {
                                    isFakeRequest: Bool = false,
                                    callback: @escaping (Result<Void, DP3TTracingError>) -> Void) {
         guard let instance = instance else {
-            fatalError("DP3TSDK not initialized call `initialize(with:delegate:)`")
+            // fatalError("DP3TSDK not initialized call `initialize(with:delegate:)`")
+            Analytics.logEvent("DP3TSDK not initialized call `initialize(with:delegate:)`", parameters: nil)
+            return
         }
         instance.iWasExposed(onset: onset,
                              authentication: authentication,
@@ -140,7 +150,9 @@ public enum DP3TTracing {
     /// reset the SDK
     public static func reset() throws {
         guard instance != nil else {
-            fatalError("DP3TSDK not initialized call `initialize(with:delegate:)`")
+            // fatalError("DP3TSDK not initialized call `initialize(with:delegate:)`")
+            Analytics.logEvent("DP3TSDK not initialized call `initialize(with:delegate:)`", parameters: nil)
+            return
         }
         try instance.reset()
         instance = nil
@@ -149,14 +161,18 @@ public enum DP3TTracing {
     #if CALIBRATION
         public static func startAdvertising() throws {
             guard let instance = instance else {
-                fatalError("DP3TSDK not initialized call `initialize(with:delegate:)`")
+                // fatalError("DP3TSDK not initialized call `initialize(with:delegate:)`")
+                Analytics.logEvent("DP3TSDK not initialized call `initialize(with:delegate:)`", parameters: nil)
+                return
             }
             try instance.startAdvertising()
         }
 
         public static func startReceiving() throws {
             guard let instance = instance else {
-                fatalError("DP3TSDK not initialized call `initialize(with:delegate:)`")
+                // fatalError("DP3TSDK not initialized call `initialize(with:delegate:)`")
+                Analytics.logEvent("DP3TSDK not initialized call `initialize(with:delegate:)`", parameters: nil)
+                return
             }
             try instance.startReceiving()
         }
@@ -167,7 +183,9 @@ public enum DP3TTracing {
 
         public static func getLogs(request: LogRequest) throws -> LogResponse {
             guard let instance = instance else {
-                fatalError("DP3TSDK not initialized call `initialize(with:delegate:)`")
+                // fatalError("DP3TSDK not initialized call `initialize(with:delegate:)`")
+                Analytics.logEvent("DP3TSDK not initialized call `initialize(with:delegate:)`", parameters: nil)
+                return
             }
             return try instance.getLogs(request: request)
         }

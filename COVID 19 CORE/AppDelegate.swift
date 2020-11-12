@@ -34,7 +34,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             
         }
 
-        if AppConfig.protected && UIDevice.current.isJailBroken { fatalError("Jailbreak detected!") }
+        #if os(macOS)
+            print("macOS")
+        #else
+            if AppConfig.protected && UIDevice.current.isJailBroken { fatalError("Jailbreak detected!") }
+        #endif
         
         // MARK: Firebase
         FirebaseApp.configure()
@@ -52,15 +56,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             trustKitCertificatePinning = TrustKitCertificatePinning()
         }
 
-        ContactTracingManager.sharedInstance.initialize(trustKitCertificatePinning: trustKitCertificatePinning)
-
         registerForPushNotifications()
         
-        if String.General.CONTACT_TRACING_MODEL != .none, String.General.BUSINESS_DAYS_TRACING {
-            self.checkForTracing()
-            Timer.scheduledTimer(timeInterval: 60, target: self, selector: #selector(self.checkForTracing), userInfo: nil, repeats: true)
-        }
-
         return true
     }
     
@@ -370,6 +367,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+        if let contentAvailable = (userInfo["aps"] as? NSDictionary)?["content-available"] as? Int, contentAvailable == 1 {
+            // MARK: - TODO check for silent push action
+        }
         if (application.applicationState == .active) {
             self.alertMessage(userInfo)
         } else {

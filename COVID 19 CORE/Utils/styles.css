@@ -319,9 +319,9 @@ input {
 .tab-municipalities-wrapper .map-a .sdf .nav-pills {
     margin-bottom: 0;
 }
-
+    
 .map-active #map, .is-mad #map {
-    height: calc(100vh  - 94px - 70px - env(safe-area-inset-bottom) - env(safe-area-inset-top));
+    height: calc(100vh - 94px - 70px - env(safe-area-inset-bottom) - env(safe-area-inset-top));
 }
 
 a[href^="http://maps.google.com/maps"]{display:none !important}

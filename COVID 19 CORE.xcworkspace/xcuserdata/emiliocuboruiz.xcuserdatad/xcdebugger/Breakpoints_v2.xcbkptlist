@@ -52,7 +52,7 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "60FA06BB-793A-4EBB-8269-0AD69A146FE7 - 3f3872c8d6640673"
+                  uuid = "60FA06BB-793A-4EBB-8269-0AD69A146FE7 - 346b58bfbdd9007c"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -67,7 +67,7 @@
                   offsetFromSymbolStart = "108">
                </Location>
                <Location
-                  uuid = "60FA06BB-793A-4EBB-8269-0AD69A146FE7 - 207f0fc41473e700"
+                  uuid = "60FA06BB-793A-4EBB-8269-0AD69A146FE7 - 2b2c25b37fcee0d0"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -94,8 +94,8 @@
             filePath = "COVID 19 CORE/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "557"
-            endingLineNumber = "557"
+            startingLineNumber = "565"
+            endingLineNumber = "565"
             landmarkName = "userContentController(_:didReceive:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -110,8 +110,8 @@
             filePath = "COVID 19 CORE/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "583"
-            endingLineNumber = "583"
+            startingLineNumber = "591"
+            endingLineNumber = "591"
             landmarkName = "share(_:image:url:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -120,22 +120,6 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "B5FE08F2-F909-433D-BFF1-51C0DD9AF97A"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "COVID 19 CORE/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "593"
-            endingLineNumber = "593"
-            landmarkName = "share(_:image:url:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C81AA89A-7378-484C-A418-A14CBB06F853"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -151,6 +135,22 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "C81AA89A-7378-484C-A418-A14CBB06F853"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "COVID 19 CORE/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "609"
+            endingLineNumber = "609"
+            landmarkName = "share(_:image:url:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
             uuid = "22111B60-3C9D-43DF-B18C-E2A2D9214DA6"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -158,8 +158,8 @@
             filePath = "COVID 19 CORE/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "574"
-            endingLineNumber = "574"
+            startingLineNumber = "582"
+            endingLineNumber = "582"
             landmarkName = "share(_:image:url:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -174,8 +174,8 @@
             filePath = "COVID 19 CORE/ExposureNotification/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "597"
-            endingLineNumber = "597"
+            startingLineNumber = "607"
+            endingLineNumber = "607"
             landmarkName = "shareCompleted(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -190,8 +190,8 @@
             filePath = "COVID 19 CORE/ExposureNotification/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "563"
-            endingLineNumber = "563"
+            startingLineNumber = "573"
+            endingLineNumber = "573"
             landmarkName = "share(_:image:url:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -206,8 +206,8 @@
             filePath = "COVID 19 CORE/ExposureNotification/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "550"
-            endingLineNumber = "550"
+            startingLineNumber = "560"
+            endingLineNumber = "560"
             landmarkName = "userContentController(_:didReceive:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -222,8 +222,8 @@
             filePath = "COVID 19 CORE/ExposureNotification/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "576"
-            endingLineNumber = "576"
+            startingLineNumber = "586"
+            endingLineNumber = "586"
             landmarkName = "share(_:image:url:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -238,8 +238,8 @@
             filePath = "COVID 19 CORE/ExposureNotification/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "584"
-            endingLineNumber = "584"
+            startingLineNumber = "594"
+            endingLineNumber = "594"
             landmarkName = "share(_:image:url:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -260,34 +260,34 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "5B78F2F9-9BF9-47B6-822E-05F1E3ECFF91 - 78a64198e30d5d0e"
+                  uuid = "5B78F2F9-9BF9-47B6-822E-05F1E3ECFF91 - 78cf77e74fcac11"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "COVID_19_SAMPLE.AppDelegate.notificaton(Swift.Dictionary&lt;Swift.AnyHashable, Any&gt;) -&gt; ()"
                   moduleName = "COVID-19 SAMPLE"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/emiliocuboruiz/Dropbox%20(Personal)/Public/COVID%2019%20Open%20Source/COVID%2019%20CORE/AppDelegate.swift"
+                  urlString = "file:///Users/emiliocuboruiz/Documents/Trabajo/Global%20Incubator/COVID%2019%20Open%20Source/COVID%2019%20CORE/AppDelegate.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "467"
                   endingLineNumber = "467"
-                  offsetFromSymbolStart = "8391">
+                  offsetFromSymbolStart = "6388">
                </Location>
                <Location
-                  uuid = "5B78F2F9-9BF9-47B6-822E-05F1E3ECFF91 - 78a64198e30d5d0e"
+                  uuid = "5B78F2F9-9BF9-47B6-822E-05F1E3ECFF91 - 78cf77e74fcac11"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "COVID_19_SAMPLE.AppDelegate.notificaton(Swift.Dictionary&lt;Swift.AnyHashable, Any&gt;) -&gt; ()"
                   moduleName = "COVID-19 SAMPLE"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/emiliocuboruiz/Dropbox%20(Personal)/Public/COVID%2019%20Open%20Source/COVID%2019%20CORE/AppDelegate.swift"
+                  urlString = "file:///Users/emiliocuboruiz/Documents/Trabajo/Global%20Incubator/COVID%2019%20Open%20Source/COVID%2019%20CORE/AppDelegate.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "467"
                   endingLineNumber = "467"
-                  offsetFromSymbolStart = "8472">
+                  offsetFromSymbolStart = "6472">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -302,8 +302,8 @@
             filePath = "COVID 19 CORE/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "101"
-            endingLineNumber = "101"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
             landmarkName = "tryLoad(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -318,8 +318,8 @@
             filePath = "COVID 19 CORE/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
             landmarkName = "tryLoad(_:)"
             landmarkType = "7">
          </BreakpointContent>

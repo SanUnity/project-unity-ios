@@ -52,16 +52,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             trustKitCertificatePinning = TrustKitCertificatePinning()
         }
 
-        if #available(iOS 13.5, *), UIDevice.current.model == "iPhone" {
-            ContactTracingManager.sharedInstance.initialize(trustKitCertificatePinning: trustKitCertificatePinning)
-        }
-
         registerForPushNotifications()
-
-        if String.General.CONTACT_TRACING_MODEL != .none, String.General.BUSINESS_DAYS_TRACING {
-            self.checkForTracing()
-            Timer.scheduledTimer(timeInterval: 60, target: self, selector: #selector(self.checkForTracing), userInfo: nil, repeats: true)
-        }
 
         return true
     }
